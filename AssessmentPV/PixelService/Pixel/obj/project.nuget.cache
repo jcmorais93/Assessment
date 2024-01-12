@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "H3xoCLZW5vGzz8No4z1PPragwcp5JBN2fyAlSogGQUCIKYqQCIdYWxCrxutcf/sAEqPHe2iGpaXDeug3xcMS/w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jose.morais\\Documents\\GitHub\\Assessment\\AssessmentPV\\PixelService\\Pixel\\Pixel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jose.morais\\.nuget\\packages\\confluent.kafka\\2.3.0\\confluent.kafka.2.3.0.nupkg.sha512",
+    "C:\\Users\\jose.morais\\.nuget\\packages\\librdkafka.redist\\2.3.0\\librdkafka.redist.2.3.0.nupkg.sha512",
+    "C:\\Users\\jose.morais\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\jose.morais\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

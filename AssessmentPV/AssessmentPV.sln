@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PixelService", "PixelService", "{D75DB5C1-D047-4F7A-AECD-AE0B1B9FE398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pixel", "PixelService\Pixel\Pixel.csproj", "{BF0E9152-15F2-4027-BAB1-A09A72CC6A6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StorageService", "StorageService", "{220CC59C-6E73-4DB7-87D5-701B16B86876}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storage", "Storage\Storage.csproj", "{ED0D9B94-2A88-48E3-A419-7C55ED35A381}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2A40F472-8E36-4143-B090-E3249410791E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storage.Tests", "Storage.Tests\Storage.Tests.csproj", "{BFB7CE37-01A6-452F-BDE1-0F269E1522E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF0E9152-15F2-4027-BAB1-A09A72CC6A6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0E9152-15F2-4027-BAB1-A09A72CC6A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0E9152-15F2-4027-BAB1-A09A72CC6A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0E9152-15F2-4027-BAB1-A09A72CC6A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED0D9B94-2A88-48E3-A419-7C55ED35A381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED0D9B94-2A88-48E3-A419-7C55ED35A381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED0D9B94-2A88-48E3-A419-7C55ED35A381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED0D9B94-2A88-48E3-A419-7C55ED35A381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFB7CE37-01A6-452F-BDE1-0F269E1522E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB7CE37-01A6-452F-BDE1-0F269E1522E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB7CE37-01A6-452F-BDE1-0F269E1522E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB7CE37-01A6-452F-BDE1-0F269E1522E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF0E9152-15F2-4027-BAB1-A09A72CC6A6F} = {D75DB5C1-D047-4F7A-AECD-AE0B1B9FE398}
+		{ED0D9B94-2A88-48E3-A419-7C55ED35A381} = {220CC59C-6E73-4DB7-87D5-701B16B86876}
+		{2A40F472-8E36-4143-B090-E3249410791E} = {220CC59C-6E73-4DB7-87D5-701B16B86876}
+		{BFB7CE37-01A6-452F-BDE1-0F269E1522E1} = {2A40F472-8E36-4143-B090-E3249410791E}
+	EndGlobalSection
+EndGlobal
